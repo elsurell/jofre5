@@ -1,0 +1,35 @@
+{
+  "data" : {
+    "view" : {
+      "id" : "nXaJuTMd1GF",
+      "layers" : [ {
+        "layer" : {
+          "id" : "z1dud477cidbgnq8iu044byqb",
+          "created" : "2024-11-20T17:21:29Z",
+          "modified" : "2024-11-21T17:31:57Z",
+          "type" : "matterport.user.data",
+          "name" : "matterport.user.data",
+          "label" : "",
+          "__typename" : "ModelLayer"
+        },
+        "position" : 0,
+        "visible" : true,
+        "__typename" : "ModelViewLayer"
+      }, {
+        "layer" : {
+          "id" : "aaaaaaaaaaaaaaaaaaaaaaaaa",
+          "created" : "2024-11-20T16:22:21Z",
+          "modified" : "2024-11-21T17:31:58Z",
+          "type" : "matterport.base",
+          "name" : null,
+          "label" : "",
+          "__typename" : "ModelLayer"
+        },
+        "position" : 1,
+        "visible" : true,
+        "__typename" : "ModelViewLayer"
+      } ],
+      "__typename" : "ModelView"
+    }
+  }
+}

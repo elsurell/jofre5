@@ -1,0 +1,190 @@
+{
+  "errors" : [ {
+    "message" : "Error fetching data (path: /model/organization, code: request.unauthorized): Unauthorized",
+    "locations" : [ {
+      "line" : 5,
+      "column" : 5
+    } ],
+    "path" : [ "model", "organization" ],
+    "extensions" : {
+      "code" : "request.unauthorized",
+      "retry" : "false",
+      "httpCode" : 401,
+      "classification" : "DataFetchingException"
+    }
+  }, {
+    "message" : "Error fetching data (path: /model/created, code: request.unauthorized): Unauthorized",
+    "locations" : [ {
+      "line" : 8,
+      "column" : 5
+    } ],
+    "path" : [ "model", "created" ],
+    "extensions" : {
+      "code" : "request.unauthorized",
+      "retry" : "false",
+      "httpCode" : 401,
+      "classification" : "DataFetchingException"
+    }
+  }, {
+    "message" : "Error fetching data (path: /model/demo, code: request.unauthorized): Unauthorized",
+    "locations" : [ {
+      "line" : 9,
+      "column" : 5
+    } ],
+    "path" : [ "model", "demo" ],
+    "extensions" : {
+      "code" : "request.unauthorized",
+      "retry" : "false",
+      "httpCode" : 401,
+      "classification" : "DataFetchingException"
+    }
+  } ],
+  "data" : {
+    "model" : {
+      "id" : "nXaJuTMd1GF",
+      "name" : "Idealista 106618261",
+      "organization" : null,
+      "visibility" : "public",
+      "discoverable" : false,
+      "created" : null,
+      "demo" : null,
+      "state" : "active",
+      "__typename" : "Model",
+      "image" : {
+        "id" : "mdvUZtZHtcn",
+        "label" : "Living Room",
+        "classification" : "Living Room",
+        "category" : "snapshot",
+        "height" : 1620,
+        "width" : 2880,
+        "created" : "2024-11-20T17:21:24Z",
+        "modified" : "2024-11-20T17:21:27Z",
+        "status" : "available",
+        "filename" : "Living-Room.jpg",
+        "format" : "image",
+        "url" : "https://cdn-2.matterport.com/apifs/models/nXaJuTMd1GF/images/mdvUZtZHtcn/mdvUZtZHtcn-Living_Room.jpg?t=2-8b792980315c4e24d10eeafe4bfd75df3a8ead8d-1732220425-1",
+        "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+        "type" : "photo2D",
+        "origin" : "vision",
+        "validUntil":"2099-01-01T19:25:25Z",
+        "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/nXaJuTMd1GF/images/mdvUZtZHtcn/mdvUZtZHtcn-Living_Room.jpg?t=2-8b792980315c4e24d10eeafe4bfd75df3a8ead8d-1732220425-1&width=200&height=140&fit=crop&disable=upscale",
+        "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/nXaJuTMd1GF/images/mdvUZtZHtcn/mdvUZtZHtcn-Living_Room.jpg?t=2-8b792980315c4e24d10eeafe4bfd75df3a8ead8d-1732220425-1&width=1920&height=1080&fit=crop&disable=upscale",
+        "snapshotLocation" : {
+          "viewMode" : "panorama",
+          "position" : {
+            "x" : -3.966573715209961,
+            "y" : -0.7704299092292786,
+            "z" : -1.8226455450057983,
+            "__typename" : "Point"
+          },
+          "rotation" : {
+            "x" : 0.6239378606295984,
+            "y" : 0.3987576970231675,
+            "z" : -0.36192583321002986,
+            "w" : -0.566306967148126,
+            "__typename" : "Quaternion"
+          },
+          "zoom" : 1.0,
+          "floorVisibility" : [ ],
+          "anchor" : {
+            "id" : "0xzdqfr12nbhyacb4titbg9rd",
+            "pano" : {
+              "id" : "0xzdqfr12nbhyacb4titbg9rd",
+              "placement" : "auto",
+              "__typename" : "PanoramicImageLocation"
+            },
+            "__typename" : "AnchorLocation"
+          },
+          "__typename" : "SnapshotLocation"
+        },
+        "__typename" : "Photo"
+      },
+      "publication" : {
+        "address" : null,
+        "published" : true,
+        "lastPublished" : null,
+        "presentedBy" : "Idealista",
+        "summary" : "",
+        "externalUrl" : null,
+        "contact" : {
+          "name" : "",
+          "email" : "",
+          "phoneNumber" : null,
+          "__typename" : "ModelContact"
+        },
+        "__typename" : "ModelPublicationDetails"
+      },
+      "options" : {
+        "backgroundColor" : "black",
+        "dollhouseEnabled" : true,
+        "dollhouseLabelsEnabled" : true,
+        "floorSelectEnabled" : true,
+        "floorplanEnabled" : true,
+        "highlightReelEnabled" : true,
+        "labelsEnabled" : true,
+        "measurements" : "measureAndView",
+        "roomBoundsEnabled" : true,
+        "socialSharingEnabled" : false,
+        "spaceSearchEnabled" : true,
+        "tourButtonsEnabled" : true,
+        "tourDollhousePanSpeed" : 2,
+        "tourFastTransitionsEnabled" : true,
+        "tourPanAngle" : 35,
+        "tourPanDirection" : "auto",
+        "tourPanSpeed" : 10,
+        "tourTransitionSpeed" : 1250,
+        "tourTransitionTime" : 600,
+        "tourZoomDuration" : 3500,
+        "unitType" : "metric",
+        "vrEnabled" : true,
+        "__typename" : "ModelOptions"
+      },
+      "assets" : {
+        "meshes" : [ {
+          "id" : "meshes/s600uys1t2i5kh6mq5fbyazca",
+          "status" : "available",
+          "filename" : "de675608982c4c9c9f70e859f02b652a_50k.dam",
+          "format" : "dam",
+          "resolution" : "50k",
+          "url" : "https://cdn-2.matterport.com/models/cb0f771327774563b4655689f65eec68/assets/de675608982c4c9c9f70e859f02b652a_50k.dam?t=2-50bfe4a1cacce0681ed9f05142e62e6be3e31d6a-1732220425-1",
+          "validUntil":"2099-01-01T20:20:25Z",
+          "__typename" : "Mesh"
+        } ],
+        "textures" : [ {
+          "id" : "50k-high",
+          "status" : "available",
+          "format" : "jpg",
+          "resolution" : "50k",
+          "quality" : "high",
+          "urlTemplate" : "https://cdn-2.matterport.com/models/cb0f771327774563b4655689f65eec68/assets/~/de675608982c4c9c9f70e859f02b652a_50k_texture_jpg_high/de675608982c4c9c9f70e859f02b652a_50k_<texture>.jpg?t=2-f0d58870ac7e798996bd6a28537fccd7bb4b8600-1732220425-0&k=models%2Fcb0f771327774563b4655689f65eec68%2Fassets",
+          "validUntil":"2099-01-01T20:20:25Z",
+          "__typename" : "Texture"
+        }, {
+          "id" : "50k-low",
+          "status" : "available",
+          "format" : "jpg",
+          "resolution" : "50k",
+          "quality" : "low",
+          "urlTemplate" : "https://cdn-2.matterport.com/models/cb0f771327774563b4655689f65eec68/assets/~/de675608982c4c9c9f70e859f02b652a_50k_texture_jpg_low/de675608982c4c9c9f70e859f02b652a_50k_<texture>.jpg?t=2-f0d58870ac7e798996bd6a28537fccd7bb4b8600-1732220425-0&k=models%2Fcb0f771327774563b4655689f65eec68%2Fassets",
+          "validUntil":"2099-01-01T20:20:25Z",
+          "__typename" : "Texture"
+        } ],
+        "tilesets" : [ {
+          "status" : "available",
+          "tilesetVersion" : "1.2.0",
+          "url" : "https://cdn-2.matterport.com/models/cb0f771327774563b4655689f65eec68/assets/mesh_tiles/~/tileset.json?t=2-4f6da17ff641f84221f50e3b92374f289ad4a107-1732220425-1&k=models%2Fcb0f771327774563b4655689f65eec68%2Fassets%2Fmesh_tiles",
+          "urlTemplate" : "https://cdn-2.matterport.com/models/cb0f771327774563b4655689f65eec68/assets/mesh_tiles/~/<file>?t=2-4f6da17ff641f84221f50e3b92374f289ad4a107-1732220425-1&k=models%2Fcb0f771327774563b4655689f65eec68%2Fassets%2Fmesh_tiles",
+          "validUntil":"2099-01-01T20:20:25Z",
+          "tilesetDepth" : 3,
+          "tilesetPreset" : "basic2",
+          "__typename" : "Tileset"
+        } ],
+        "__typename" : "ModelAssets"
+      },
+      "lod" : {
+        "options" : [ "lod2" ],
+        "__typename" : "PolicyOptions"
+      }
+    }
+  }
+}
