@@ -1,0 +1,8 @@
+{
+  "config": {},
+  "description": "",
+  "options":   {
+    "mlsEnabled": true,
+    "icon": false
+  }
+}

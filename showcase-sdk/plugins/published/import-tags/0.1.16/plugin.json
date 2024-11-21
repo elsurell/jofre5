@@ -1,0 +1,5 @@
+{
+  "options": {"editOnly": false},
+  "config": {},
+  "description": "Import tags from another space.\n\n1. Enable this plugin in Edit Mode on the model that you wish to import tags to.\n\n2. Enter the Model ID for the model that you would like to import tags from.\n\n3. Click import.\n\n4. Review the imported tags.  If tags are not appearing in the correct location, the geometry between the two spaces may have changed and you will then need to place two tags named exactly Marker1 and Marker2 on both models and repeat the process using the 'Two Point Align' option.\n\n5. Once you are satisfied with the import, press save.\n\nYou can move the imported tags to appropriate views/layers as you see fit."
+}
